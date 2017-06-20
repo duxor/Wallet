@@ -10,4 +10,3 @@ vendor/
 .idea/modules.xml
 .idea/php.xml
 .idea/wallet.iml
-tests/
