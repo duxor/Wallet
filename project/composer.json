@@ -25,7 +25,10 @@
     },
     "autoload": {
         "psr-0": { "": "src/" },
-        "psr-4": { "Wallet\\Tests\\": "tests/Wallet/Tests" }
+        "psr-4": {
+            "Wallet\\Tests\\": "tests/Wallet/Tests",
+            "Wallet\\Controller\\": "src/Wallet/Controller"
+        }
     },
     "extra": {
         "branch-alias": {

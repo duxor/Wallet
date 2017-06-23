@@ -18,6 +18,23 @@
         </script>
     </head>
     <body>
+        User/Admin|master Panel
+        <br>
+        <hr>
+        <a href="{{ url('homepage') }}">Home</a><br>
+        <br>
+        <hr>
+        <a href="{{ url('admin_homepage') }}">Admin home</a><br>
+        <a href="{{ url('admin_budget') }}">Admin Budget</a><br>
+        <a href="{{ url('admin_income') }}">Admin Income</a><br>
+        <a href="{{ url('admin_savings') }}">Admin Savings</a><br>
+        <br>
+        <hr>
+        <a href="{{ url('user_homepage') }}">User home</a><br>
+        <a href="{{ url('user_budget') }}">User Budget</a><br>
+        <a href="{{ url('user_income') }}">User Income</a><br>
+        <br>
+        <br>
         {% block content %}{% endblock %}
     </body>
 </html>
