@@ -43,7 +43,7 @@ vagrantfile:
             vflsf_c9ggpgg12g34:
                 owner: www-data
                 group: www-data
-                source: ./
+                source: ./project
                 target: /var/www/wallet
                 sync_type: default
                 smb:
